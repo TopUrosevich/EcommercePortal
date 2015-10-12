@@ -1,0 +1,190 @@
+curl -X PUT "http://localhost:9200/findmyrice/_mapping/el_plsa" -d '{
+        "el_plsa" : {
+            "_all": {
+                   "index_analyzer": "nGram_analyzer",
+                   "search_analyzer": "whitespace_analyzer"
+            },
+          "properties" : {
+            "user_id" : {
+              "type" : "string",
+              "index": "not_analyzed"
+            },
+            "pl_name" : {
+              "type": "multi_field",
+              "fields": {
+                  "pl_name": {
+                          "type": "string",
+                          "index_analyzer": "nGram_analyzer",
+                          "search_analyzer": "whitespace_analyzer"
+                          },
+                  "pl_name_exact": {
+                          "type": "string",
+                          "index": "not_analyzed"
+                          }
+              }
+            },
+            "pl_file_type" : {
+              "type": "multi_field",
+              "fields": {
+                  "pl_file_type": {
+                          "type": "string",
+                          "index_analyzer": "nGram_analyzer",
+                          "search_analyzer": "whitespace_analyzer"
+                          },
+                  "pl_file_type_exact": {
+                          "type": "string",
+                          "index": "not_analyzed"
+                          }
+              }
+            },
+            "pl_size" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "pl_url" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "pl_uploaded" : {
+                  "type": "multi_field",
+                  "fields": {
+                      "pl_uploaded": {
+                              "type" : "date",
+                              "format" : "YYYY-MM-dd",
+                              "index_analyzer": "nGram_analyzer",
+                              "search_analyzer": "whitespace_analyzer"
+                              },
+                      "pl_uploaded_exact": {
+                              "type" : "date",
+                              "format" : "YYYY-MM-dd",
+                              "index": "not_analyzed"
+                              }
+                  }
+            },
+            "product_list_id" : {
+              "type" : "string",
+              "index": "not_analyzed"
+            },
+            "sa_area_name" : {
+                          "type": "multi_field",
+                          "fields": {
+                              "sa_area_name": {
+                                      "type": "string",
+                                      "index_analyzer": "nGram_analyzer",
+                                      "search_analyzer": "whitespace_analyzer"
+                                      },
+                              "sa_area_name_exact": {
+                                      "type": "string",
+                                      "index": "not_analyzed"
+                                      }
+                          }
+            },
+            "sa_country" : {
+                          "type": "multi_field",
+                          "fields": {
+                              "sa_country": {
+                                      "type": "string",
+                                      "index_analyzer": "nGram_analyzer",
+                                      "search_analyzer": "whitespace_analyzer"
+                                      },
+                              "sa_country_exact": {
+                                      "type": "string",
+                                      "index": "not_analyzed"
+                                      }
+                          }
+            },
+            "sa_country_code" : {
+                          "type": "multi_field",
+                          "fields": {
+                              "sa_country_code": {
+                                      "type": "string",
+                                      "index_analyzer": "nGram_analyzer",
+                                      "search_analyzer": "whitespace_analyzer"
+                                      },
+                              "sa_country_code_exact": {
+                                      "type": "string",
+                                      "index": "not_analyzed"
+                                      }
+                          }
+            },
+            "sa_area_code" : {
+                  "type" : "long",
+                  "index": "not_analyzed"
+            },
+            "sa_phone" : {
+                "type" : "long",
+                "index": "not_analyzed"
+            },
+            "sa_street_address" : {
+              "type" : "string",
+             "index_analyzer": "nGram_analyzer",
+             "search_analyzer": "nGram_analyzer"
+            },
+            "sa_state" : {
+                          "type": "multi_field",
+                          "fields": {
+                              "sa_state": {
+                                      "type": "string",
+                                      "index_analyzer": "nGram_analyzer",
+                                      "search_analyzer": "whitespace_analyzer"
+                                      },
+                              "sa_state_exact": {
+                                      "type": "string",
+                                      "index": "not_analyzed"
+                                      }
+                          }
+            },
+            "sa_city" : {
+                          "type": "multi_field",
+                          "fields": {
+                              "sa_city": {
+                                      "type": "string",
+                                      "index_analyzer": "nGram_analyzer",
+                                      "search_analyzer": "whitespace_analyzer"
+                                      },
+                              "sa_city_exact": {
+                                      "type": "string",
+                                      "index": "not_analyzed"
+                                      }
+                          }
+            },
+            "sa_postcode" : {
+                  "type": "multi_field",
+                  "fields": {
+                      "sa_postcode": {
+                              "type": "string",
+                              "index_analyzer": "nGram_analyzer",
+                              "search_analyzer": "whitespace_analyzer"
+                              },
+                      "sa_postcode_exact": {
+                              "type": "string",
+                              "index": "not_analyzed"
+                              }
+                  }
+            },
+            "sa_created_at" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "sa_modified_at" : {
+                "type": "multi_field",
+                "fields": {
+                    "sa_modified_at": {
+                            "type" : "date",
+                            "format" : "YYYY-MM-dd",
+                            "index_analyzer": "nGram_analyzer",
+                            "search_analyzer": "whitespace_analyzer"
+                            },
+                    "sa_modified_at_exact": {
+                            "type" : "date",
+                            "format" : "YYYY-MM-dd",
+                            "index": "not_analyzed"
+                            }
+                }
+            }
+          }
+        }
+}'; echo

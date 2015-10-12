@@ -1,0 +1,97 @@
+$ curl -X PUT "http://localhost:9200/el_company_profile" -d '{
+  "mappings" : {
+    "el_company_profile_type" : {
+      "properties" : {
+        "title" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+        "tagline" : {
+                  "type" : "string",
+                  "search_analyzer" : "str_search_analyzer",
+                  "index_analyzer" : "str_index_analyzer"
+        },
+        "short_description" : {
+                  "type" : "string",
+                  "search_analyzer" : "str_search_analyzer",
+                  "index_analyzer" : "str_index_analyzer"
+        },
+        "long_description" : {
+                  "type" : "string",
+                  "search_analyzer" : "str_search_analyzer",
+                  "index_analyzer" : "str_index_analyzer"
+        },
+		"address" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"city" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"state" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"country" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"keywords" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"business_type" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"postcode" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+        "primary_product_service" : {
+           "type" : "string",
+           "search_analyzer" : "str_search_analyzer",
+           "index_analyzer" : "str_index_analyzer"
+         },
+        "primary_supplier_category" : {
+           "type" : "string",
+           "search_analyzer" : "str_search_analyzer",
+           "index_analyzer" : "str_index_analyzer"
+         }
+      }
+    }
+  },
+
+  "settings" : {
+    "analysis" : {
+      "analyzer" : {
+        "str_search_analyzer" : {
+          "tokenizer" : "keyword",
+          "filter" : ["lowercase"]
+        },
+
+        "str_index_analyzer" : {
+          "tokenizer" : "keyword",
+          "filter" : ["lowercase", "substring"]
+        }
+      },
+
+      "filter" : {
+        "substring" : {
+          "type" : "nGram",
+          "min_gram" : 1,
+          "max_gram"  : 50
+        }
+      }
+    }
+  }
+}'; echo

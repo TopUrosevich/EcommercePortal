@@ -1,0 +1,230 @@
+curl -X PUT "http://localhost:9200/findmyrice/_mapping/el_company" -d '{
+        "el_company" : {
+            "_all": {
+                   "index_analyzer": "nGram_analyzer",
+                   "search_analyzer": "whitespace_analyzer"
+            },
+          "properties" : {
+            "business_name" : {
+                "type": "multi_field",
+                "fields": {
+                    "business_name": {
+                            "type": "string",
+                            "index_analyzer": "nGram_analyzer",
+                            "search_analyzer": "whitespace_analyzer"
+                            },
+                    "business_name_exact": {
+                            "type": "string",
+                            "index": "not_analyzed"
+                            }
+                }
+            },
+            "street_address" : {
+              "type" : "string",
+              "index_analyzer": "nGram_analyzer",
+              "search_analyzer": "whitespace_analyzer"
+            },
+            "suburb_town_city" : {
+                    "type": "multi_field",
+                    "fields": {
+                        "suburb_town_city": {
+                                "type": "string",
+                                "index_analyzer": "nGram_analyzer",
+                                "search_analyzer": "whitespace_analyzer"
+                                },
+                        "suburb_town_city_exact": {
+                                "type": "string",
+                                "index": "not_analyzed"
+                                }
+                    }
+            },
+            "state" : {
+                    "type": "multi_field",
+                    "fields": {
+                        "state": {
+                                "type": "string",
+                                "index_analyzer": "nGram_analyzer",
+                                "search_analyzer": "whitespace_analyzer"
+                                },
+                        "state_exact": {
+                                "type": "string",
+                                "index": "not_analyzed"
+                                }
+                    }
+            },
+            "country" : {
+                    "type": "multi_field",
+                    "fields": {
+                        "country": {
+                                "type": "string",
+                                "index_analyzer": "nGram_analyzer",
+                                "search_analyzer": "whitespace_analyzer"
+                                },
+                        "country_exact": {
+                                "type": "string",
+                                "index": "not_analyzed"
+                                }
+                    }
+            },
+            "business_type" : {
+                    "type": "multi_field",
+                    "fields": {
+                        "business_type": {
+                                "type": "string",
+                                "index_analyzer": "nGram_analyzer",
+                                "search_analyzer": "whitespace_analyzer"
+                                },
+                        "business_type_exact": {
+                                "type": "string",
+                                "index": "not_analyzed"
+                                }
+                    }
+            },
+            "membership_type" : {
+                    "type": "multi_field",
+                    "fields": {
+                        "membership_type": {
+                                "type": "string",
+                                "index_analyzer": "nGram_analyzer",
+                                "search_analyzer": "whitespace_analyzer"
+                                },
+                        "membership_type_exact": {
+                                "type": "string",
+                                "index": "not_analyzed"
+                                }
+                    }
+            },
+            "postcode" : {
+                    "type": "multi_field",
+                    "fields": {
+                        "postcode": {
+                                "type": "string",
+                                "index_analyzer": "nGram_analyzer",
+                                "search_analyzer": "whitespace_analyzer"
+                                },
+                        "postcode_exact": {
+                                "type": "string",
+                                "index": "not_analyzed"
+                                }
+                    }
+            },
+            "primary_product_service" : {
+                    "type": "multi_field",
+                    "fields": {
+                        "primary_product_service": {
+                                "type": "string",
+                                "index_analyzer": "nGram_analyzer",
+                                "search_analyzer": "whitespace_analyzer"
+                                },
+                        "primary_product_service_exact": {
+                                "type": "string",
+                                "index": "not_analyzed"
+                                }
+                    }
+            },
+            "primary_supplier_category" : {
+                    "type": "multi_field",
+                    "fields": {
+                        "primary_supplier_category": {
+                                "type": "string",
+                                "index_analyzer": "nGram_analyzer",
+                                "search_analyzer": "whitespace_analyzer"
+                                },
+                        "primary_supplier_category_exact": {
+                                "type": "string",
+                                "index": "not_analyzed"
+                                }
+                    }
+            },
+            "email" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "first_name" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "last_name" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "name" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "area_code" : {
+                "type": "long",
+                "index": "not_analyzed"
+            },
+            "phone" : {
+                "type": "long",
+                "index": "not_analyzed"
+            },
+            "premium" : {
+              "type" : "string",
+              "index": "not_analyzed"
+            },
+            "currently_export" : {
+              "type" : "string",
+              "index": "not_analyzed"
+            },
+            "currently_import" : {
+              "type" : "string",
+              "index": "not_analyzed"
+            },
+            "logo" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "badges_buttons" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "profilesId" : {
+              "type" : "string",
+              "index": "not_analyzed"
+            },
+            "active" : {
+              "type" : "string",
+              "index": "not_analyzed"
+            },
+            "suspended" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "banned" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "created_at" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "modified_at" : {
+                    "type": "multi_field",
+                    "fields": {
+                        "modified_at": {
+                                "type" : "date",
+                                "format" : "YYYY-MM-dd",
+                                "index_analyzer": "nGram_analyzer",
+                                "search_analyzer": "whitespace_analyzer"
+                                },
+                        "modified_at_exact": {
+                                "type" : "date",
+                                "format" : "YYYY-MM-dd",
+                                "index": "not_analyzed"
+                                }
+                    }
+            }
+          }
+        }
+}'; echo

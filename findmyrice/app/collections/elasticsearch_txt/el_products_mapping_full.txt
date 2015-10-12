@@ -1,0 +1,95 @@
+curl -X PUT "http://localhost:9200/findmyrice/_mapping/el_products" -d '{
+        "el_products" : {
+            "_all": {
+                   "index_analyzer": "nGram_analyzer",
+                   "search_analyzer": "whitespace_analyzer"
+            },
+          "properties" : {
+            "user_id" : {
+              "type" : "string",
+              "index": "not_analyzed"
+            },
+            "product_name" : {
+              "type": "multi_field",
+              "fields": {
+                  "product_name": {
+                          "type": "string",
+                          "index_analyzer": "nGram_analyzer",
+                          "search_analyzer": "whitespace_analyzer"
+                          },
+                  "product_name_exact": {
+                          "type": "string",
+                          "index": "not_analyzed"
+                          }
+              }
+            },
+            "unit_qty" : {
+                          "type": "multi_field",
+                          "fields": {
+                              "unit_qty": {
+                                      "type": "string",
+                                      "index_analyzer": "nGram_analyzer",
+                                      "search_analyzer": "whitespace_analyzer"
+                                      },
+                              "unit_qty_exact": {
+                                      "type": "string",
+                                      "index": "not_analyzed"
+                                      }
+                          }
+            },
+            "brand" : {
+                          "type": "multi_field",
+                          "fields": {
+                              "brand": {
+                                      "type": "string",
+                                      "index_analyzer": "nGram_analyzer",
+                                      "search_analyzer": "whitespace_analyzer"
+                                      },
+                              "brand_exact": {
+                                      "type": "string",
+                                      "index": "not_analyzed"
+                                      }
+                          }
+            },
+            "product_category" : {
+                          "type": "multi_field",
+                          "fields": {
+                              "product_category": {
+                                      "type": "string",
+                                      "index_analyzer": "nGram_analyzer",
+                                      "search_analyzer": "whitespace_analyzer"
+                                      },
+                              "product_category_exact": {
+                                      "type": "string",
+                                      "index": "not_analyzed"
+                                      }
+                          }
+            },
+            "product_list_id" : {
+              "type" : "string",
+              "index": "not_analyzed"
+            },
+            "product_created_at" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "product_modified_at" : {
+                "type": "multi_field",
+                "fields": {
+                    "product_modified_at": {
+                            "type" : "date",
+                            "format" : "YYYY-MM-dd",
+                            "index_analyzer": "nGram_analyzer",
+                            "search_analyzer": "whitespace_analyzer"
+                            },
+                    "product_modified_at_exact": {
+                            "type" : "date",
+                            "format" : "YYYY-MM-dd",
+                            "index": "not_analyzed"
+                            }
+                }
+            }
+          }
+        }
+}'; echo

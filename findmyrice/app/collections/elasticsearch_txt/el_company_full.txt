@@ -1,0 +1,146 @@
+$ curl -X PUT "http://localhost:9200/el_company" -d '{
+    "settings": {
+       "analysis": {
+          "filter": {
+             "nGram_filter": {
+                "type": "nGram",
+                "min_gram": 2,
+                "max_gram": 20,
+                "token_chars": [
+                   "letter",
+                   "digit",
+                   "punctuation",
+                   "symbol"
+                ]
+             }
+          },
+          "analyzer": {
+             "nGram_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace",
+                "filter": [
+                   "lowercase",
+                   "asciifolding",
+                   "nGram_filter"
+                ]
+             },
+             "whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace",
+                "filter": [
+                   "lowercase",
+                   "asciifolding"
+                ]
+             }
+          }
+       }
+    },
+      "mappings" : {
+        "el_company_type" : {
+            "_all": {
+                   "index_analyzer": "nGram_analyzer",
+                   "search_analyzer": "whitespace_analyzer"
+            },
+          "properties" : {
+            "business_name" : {
+                "type": "string"
+            },
+            "street_address" : {
+              "type" : "string",
+              "index": "not_analyzed"
+            },
+            "suburb_town_city" : {
+              "type" : "string"
+            },
+            "state" : {
+              "type" : "string"
+            },
+            "country" : {
+              "type" : "string"
+            },
+            "business_type" : {
+              "type" : "string"
+            },
+            "membership_type" : {
+              "type" : "string"
+            },
+            "postcode" : {
+              "type" : "string"
+            },
+            "primary_product_service" : {
+              "type" : "string"
+            },
+            "primary_supplier_category" : {
+              "type" : "string"
+            },
+            "email" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "first_name" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "last_name" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "name" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "area_code" : {
+               "type" : "string"
+            },
+            "phone" : {
+              "type" : "string"
+            },
+            "currently_export" : {
+              "type" : "string"
+            },
+            "currently_import" : {
+              "type" : "string"
+            },
+            "logo" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "badges_buttons" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "profilesId" : {
+              "type" : "string",
+              "index": "not_analyzed"
+            },
+            "active" : {
+              "type" : "string"
+            },
+            "suspended" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "banned" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "created_at" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "modified_at" : {
+              "type" : "string"
+            }
+          }
+        }
+      }
+}'; echo

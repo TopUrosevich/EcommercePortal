@@ -1,0 +1,42 @@
+curl -X PUT "http://localhost:9200/findmyrice" -d '{
+    "settings": {
+       "number_of_shards" : 2,
+       "number_of_replicas" : 1,
+       "analysis": {
+          "filter": {
+             "nGram_filter": {
+                "type": "nGram",
+                "min_gram": 2,
+                "max_gram": 20,
+                "token_chars": [
+                   "letter",
+                   "digit",
+                   "punctuation",
+                   "symbol"
+                ]
+             }
+          },
+          "analyzer": {
+             "nGram_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard",
+                "filter": [
+                   "standard",
+                   "lowercase",
+                   "asciifolding",
+                   "nGram_filter"
+                ]
+             },
+             "whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard",
+                "filter": [
+                  "standard",
+                  "lowercase",
+                  "asciifolding"
+                ]
+             }
+          }
+       }
+    }
+}'; echo

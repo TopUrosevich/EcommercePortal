@@ -1,0 +1,264 @@
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859b2" }, "iso_code" : "AF", "country_name" : "Afghanistan", "country_code":"+93" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859b3" }, "iso_code" : "AL", "country_name" : "Albania", "country_code":"+355" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859b4" }, "iso_code" : "DZ", "country_name" : "Algeria", "country_code":"+213" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859b5" }, "iso_code" : "AS", "country_name" : "American Samoa", "country_code":"+1 684" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859b6" }, "iso_code" : "AD", "country_name" : "Andorra", "country_code":"+376" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859b7" }, "iso_code" : "AO", "country_name" : "Angola", "country_code":"+244" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859b8" }, "iso_code" : "AI", "country_name" : "Anguilla", "country_code":"+1 264" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859b9" }, "iso_code" : "AQ", "country_name" : "Antarctica", "country_code":"+672" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859ba" }, "iso_code" : "AG", "country_name" : "Antigua and Barbuda", "country_code":"+1 268" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859bb" }, "iso_code" : "AR", "country_name" : "Argentina", "country_code":"+54" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859bc" }, "iso_code" : "AM", "country_name" : "Armenia", "country_code":"+374" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859bd" }, "iso_code" : "AW", "country_name" : "Aruba", "country_code":"+279" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859be" }, "iso_code" : "AU", "country_name" : "Australia", "country_code":"+61" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859bf" }, "iso_code" : "AT", "country_name" : "Austria", "country_code":"+43" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859c0" }, "iso_code" : "AZ", "country_name" : "Azerbaijan", "country_code":"+994" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859c1" }, "iso_code" : "BS", "country_name" : "Bahamas", "country_code":"+1 242" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859c2" }, "iso_code" : "BH", "country_name" : "Bahrain", "country_code":"+973" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859c3" }, "iso_code" : "BD", "country_name" : "Bangladesh", "country_code":"+880" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859c4" }, "iso_code" : "BB", "country_name" : "Barbados", "country_code":"+1 246" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859c5" }, "iso_code" : "BY", "country_name" : "Belarus", "country_code":"+375" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859c6" }, "iso_code" : "BE", "country_name" : "Belgium", "country_code":"+32" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859c7" }, "iso_code" : "BZ", "country_name" : "Belize", "country_code":"+501" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859c8" }, "iso_code" : "BJ", "country_name" : "Benin", "country_code":"+229" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859c9" }, "iso_code" : "BM", "country_name" : "Bermuda", "country_code":"+1 441" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859ca" }, "iso_code" : "BT", "country_name" : "Bhutan", "country_code":"+975" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859cb" }, "iso_code" : "BO", "country_name" : "Bolivia", "country_code":"+591"}
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859cc" }, "iso_code" : "BA", "country_name" : "Bosnia and Herzegovina", "country_code":"+387" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859cd" }, "iso_code" : "BW", "country_name" : "Botswana", "country_code":"+267" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859ce" }, "iso_code" : "BV", "country_name" : "Bouvet Island", "country_code":"+55" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859cf" }, "iso_code" : "BR", "country_name" : "Brazil", "country_code":"+1 284" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859d0" }, "iso_code" : "BQ", "country_name" : "British Antarctic Territory", "country_code":"+673" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859d1" }, "iso_code" : "IO", "country_name" : "British Indian Ocean Territory", "country_code":"+359" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859d2" }, "iso_code" : "VG", "country_name" : "British Virgin Islands", "country_code":"+226" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859d3" }, "iso_code" : "BN", "country_name" : "Brunei", "country_code":"+95" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859d4" }, "iso_code" : "BG", "country_name" : "Bulgaria", "country_code":"+359" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859d5" }, "iso_code" : "BF", "country_name" : "Burkina Faso", "country_code":"+226" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859d6" }, "iso_code" : "BI", "country_name" : "Burundi", "country_code":"+257" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859d7" }, "iso_code" : "KH", "country_name" : "Cambodia", "country_code":"+855"  }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859d8" }, "iso_code" : "CM", "country_name" : "Cameroon", "country_code":"+237"  }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859d9" }, "iso_code" : "CA", "country_name" : "Canada", "country_code":"+1"  }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859da" }, "iso_code" : "CT", "country_name" : "Canton and Enderbury Islands", "country_code":"+167"  }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859db" }, "iso_code" : "CV", "country_name" : "Cape Verde", "country_code":"+238" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859dc" }, "iso_code" : "KY", "country_name" : "Cayman Islands", "country_code":"+1 345" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859dd" }, "iso_code" : "CF", "country_name" : "Central African Republic", "country_code":"+236" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859de" }, "iso_code" : "TD", "country_name" : "Chad", "country_code":"+235" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859df" }, "iso_code" : "CL", "country_name" : "Chile", "country_code":"+56" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859e0" }, "iso_code" : "CN", "country_name" : "China", "country_code":"+86" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859e1" }, "iso_code" : "CX", "country_name" : "Christmas Island", "country_code":"+61" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859e2" }, "iso_code" : "CC", "country_name" : "Cocos [Keeling] Islands", "country_code":"+61" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859e3" }, "iso_code" : "CO", "country_name" : "Colombia", "country_code":"+57" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859e4" }, "iso_code" : "KM", "country_name" : "Comoros", "country_code":"+269" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859e5" }, "iso_code" : "CG", "country_name" : "Congo - Brazzaville", "country_code":"+224" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859e6" }, "iso_code" : "CD", "country_name" : "Congo - Kinshasa", "country_code":"+243" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859e7" }, "iso_code" : "CK", "country_name" : "Cook Islands", "country_code":"+682" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859e8" }, "iso_code" : "CR", "country_name" : "Costa Rica", "country_code":"+385" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859e9" }, "iso_code" : "HR", "country_name" : "Croatia", "country_code":"+385" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859ea" }, "iso_code" : "CU", "country_name" : "Cuba", "country_code":"+53" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859eb" }, "iso_code" : "CY", "country_name" : "Cyprus", "country_code":"+357" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859ec" }, "iso_code" : "CZ", "country_name" : "Czech Republic", "country_code":"+420" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859ed" }, "iso_code" : "CI", "country_name" : "Côte d’Ivoire", "country_code":"+225" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859ee" }, "iso_code" : "DK", "country_name" : "Denmark", "country_code":"+45" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859ef" }, "iso_code" : "DJ", "country_name" : "Djibouti", "country_code":"+253"}
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859f0" }, "iso_code" : "DM", "country_name" : "Dominica", "country_code":"+1 767" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859f1" }, "iso_code" : "DO", "country_name" : "Dominican Republic", "country_code":"+1 809" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859f2" }, "iso_code" : "NQ", "country_name" : "Dronning Maud Land", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859f3" }, "iso_code" : "DD", "country_name" : "East Germany", "country_code":"+37" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859f4" }, "iso_code" : "EC", "country_name" : "Ecuador", "country_code":"+593" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859f5" }, "iso_code" : "EG", "country_name" : "Egypt", "country_code":"+20" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859f6" }, "iso_code" : "SV", "country_name" : "El Salvador", "country_code":"+503" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859f7" }, "iso_code" : "GQ", "country_name" : "Equatorial Guinea", "country_code":"+240" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859f8" }, "iso_code" : "ER", "country_name" : "Eritrea", "country_code":"+291" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859f9" }, "iso_code" : "EE", "country_name" : "Estonia", "country_code":"+372" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859fa" }, "iso_code" : "ET", "country_name" : "Ethiopia", "country_code":"+251" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859fb" }, "iso_code" : "FK", "country_name" : "Falkland Islands","country_code":"+500" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859fc" }, "iso_code" : "FO", "country_name" : "Faroe Islands","country_code":"+298" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859fd" }, "iso_code" : "FJ", "country_name" : "Fiji","country_code":"+679" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859fe" }, "iso_code" : "FI", "country_name" : "Finland","country_code":"+358" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db859ff" }, "iso_code" : "FR", "country_name" : "France","country_code":"+33" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a00" }, "iso_code" : "GF", "country_name" : "French Guiana","country_code":"+594" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a01" }, "iso_code" : "PF", "country_name" : "French Polynesia","country_code":"+689" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a02" }, "iso_code" : "TF", "country_name" : "French Southern Territories","country_code":"+260" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a03" }, "iso_code" : "FQ", "country_name" : "French Southern and Antarctic Territories","country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a04" }, "iso_code" : "GA", "country_name" : "Gabon","country_code":"+241" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a05" }, "iso_code" : "GM", "country_name" : "Gambia","country_code":"220" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a06" }, "iso_code" : "GE", "country_name" : "Georgia","country_code":"+970" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a07" }, "iso_code" : "DE", "country_name" : "Germany","country_code":"+49" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a08" }, "iso_code" : "GH", "country_name" : "Ghana","country_code":"+233" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a09" }, "iso_code" : "GI", "country_name" : "Gibraltar","country_code":"+350" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a0a" }, "iso_code" : "GR", "country_name" : "Greece","country_code":"+30" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a0b" }, "iso_code" : "GL", "country_name" : "Greenland","country_code":"+299" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a0c" }, "iso_code" : "GD", "country_name" : "Grenada","country_code":"+1 473" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a0d" }, "iso_code" : "GP", "country_name" : "Guadeloupe","country_code":"+590" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a0e" }, "iso_code" : "GU", "country_name" : "Guam","country_code":"+1 671" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a0f" }, "iso_code" : "GT", "country_name" : "Guatemala","country_code":"+502" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a10" }, "iso_code" : "GG", "country_name" : "Guernsey","country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a11" }, "iso_code" : "GN", "country_name" : "Guinea","country_code":"+224" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a12" }, "iso_code" : "GW", "country_name" : "Guinea-Bissau","country_code":"+245" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a13" }, "iso_code" : "GY", "country_name" : "Guyana","country_code":"+592" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a14" }, "iso_code" : "HT", "country_name" : "Haiti","country_code":"+509" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a15" }, "iso_code" : "HM", "country_name" : "Heard Island and McDonald Islands","country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a16" }, "iso_code" : "HN", "country_name" : "Honduras", "country_code":"+504" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a17" }, "iso_code" : "HK", "country_name" : "Hong Kong SAR China", "country_code":"+852" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a18" }, "iso_code" : "HU", "country_name" : "Hungary", "country_code":"+36" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a19" }, "iso_code" : "IS", "country_name" : "Iceland", "country_code":"+354" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a1a" }, "iso_code" : "IN", "country_name" : "India", "country_code":"+91" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a1b" }, "iso_code" : "ID", "country_name" : "Indonesia", "country_code":"+62" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a1c" }, "iso_code" : "IR", "country_name" : "Iran", "country_code":"+98" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a1d" }, "iso_code" : "IQ", "country_name" : "Iraq", "country_code":"+964" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a1e" }, "iso_code" : "IE", "country_name" : "Ireland", "country_code":"+353" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a1f" }, "iso_code" : "IM", "country_name" : "Isle of Man", "country_code":"+44" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a20" }, "iso_code" : "IL", "country_name" : "Israel", "country_code":"+972" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a21" }, "iso_code" : "IT", "country_name" : "Italy", "country_code":"+39" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a22" }, "iso_code" : "JM", "country_name" : "Jamaica", "country_code":"+1 876" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a23" }, "iso_code" : "JP", "country_name" : "Japan", "country_code":"+81" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a24" }, "iso_code" : "JE", "country_name" : "Jersey", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a25" }, "iso_code" : "JT", "country_name" : "Johnston Island", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a26" }, "iso_code" : "JO", "country_name" : "Jordan", "country_code":"+962" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a27" }, "iso_code" : "KZ", "country_name" : "Kazakhstan", "country_code":"+7" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a28" }, "iso_code" : "KE", "country_name" : "Kenya", "country_code":"+254" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a29" }, "iso_code" : "KI", "country_name" : "Kiribati", "country_code":"+686" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a2a" }, "iso_code" : "KW", "country_name" : "Kuwait", "country_code":"+965" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a2b" }, "iso_code" : "KG", "country_name" : "Kyrgyzstan", "country_code":"+996" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a2c" }, "iso_code" : "LA", "country_name" : "Laos", "country_code":"+856" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a2d" }, "iso_code" : "LV", "country_name" : "Latvia", "country_code":"+371" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a2e" }, "iso_code" : "LB", "country_name" : "Lebanon", "country_code":"+961" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a2f" }, "iso_code" : "LS", "country_name" : "Lesotho", "country_code":"+266" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a30" }, "iso_code" : "LR", "country_name" : "Liberia", "country_code":"+231" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a31" }, "iso_code" : "LY", "country_name" : "Libya", "country_code":"+218" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a32" }, "iso_code" : "LI", "country_name" : "Liechtenstein", "country_code":"+423" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a33" }, "iso_code" : "LT", "country_name" : "Lithuania", "country_code":"370" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a34" }, "iso_code" : "LU", "country_name" : "Luxembourg", "country_code":"+352" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a35" }, "iso_code" : "MO", "country_name" : "Macau SAR China", "country_code":"+853" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a36" }, "iso_code" : "MK", "country_name" : "Macedonia", "country_code":"+389" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a37" }, "iso_code" : "MG", "country_name" : "Madagascar", "country_code":"+261" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a38" }, "iso_code" : "MW", "country_name" : "Malawi", "country_code":"+265" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a39" }, "iso_code" : "MY", "country_name" : "Malaysia", "country_code":"+60" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a3a" }, "iso_code" : "MV", "country_name" : "Maldives", "country_code":"+960" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a3b" }, "iso_code" : "ML", "country_name" : "Mali", "country_code":"+223" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a3c" }, "iso_code" : "MT", "country_name" : "Malta", "country_code":"+256" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a3d" }, "iso_code" : "MH", "country_name" : "Marshall Islands", "country_code":"+692" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a3e" }, "iso_code" : "MQ", "country_name" : "Martinique", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a3f" }, "iso_code" : "MR", "country_name" : "Mauritania", "country_code":"+222" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a40" }, "iso_code" : "MU", "country_name" : "Mauritius", "country_code":"+230" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a41" }, "iso_code" : "YT", "country_name" : "Mayotte", "country_code":"+262" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a42" }, "iso_code" : "FX", "country_name" : "Metropolitan France", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a43" }, "iso_code" : "MX", "country_name" : "Mexico", "country_code":"+52" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a44" }, "iso_code" : "FM", "country_name" : "Micronesia", "country_code":"+691" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a45" }, "iso_code" : "MI", "country_name" : "Midway Islands", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a46" }, "iso_code" : "MD", "country_name" : "Moldova", "country_code":"+373" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a47" }, "iso_code" : "MC", "country_name" : "Monaco", "country_code":"+377" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a48" }, "iso_code" : "MN", "country_name" : "Mongolia", "country_code":"+976" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a49" }, "iso_code" : "ME", "country_name" : "Montenegro", "country_code":"+382" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a4a" }, "iso_code" : "MS", "country_name" : "Montserrat", "country_code":"+1 664" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a4b" }, "iso_code" : "MA", "country_name" : "Morocco", "country_code":"+212" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a4c" }, "iso_code" : "MZ", "country_name" : "Mozambique", "country_code":"+258" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a4d" }, "iso_code" : "MM", "country_name" : "Myanmar [Burma]", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a4e" }, "iso_code" : "NA", "country_name" : "Namibia", "country_code":"+264" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a4f" }, "iso_code" : "NR", "country_name" : "Nauru", "country_code":"+674" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a50" }, "iso_code" : "NP", "country_name" : "Nepal", "country_code":"+977" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a51" }, "iso_code" : "NL", "country_name" : "Netherlands", "country_code":"+31" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a52" }, "iso_code" : "AN", "country_name" : "Netherlands Antilles", "country_code":"+599" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a53" }, "iso_code" : "NT", "country_name" : "Neutral Zone", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a54" }, "iso_code" : "NC", "country_name" : "New Caledonia", "country_code":"+687" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a55" }, "iso_code" : "NZ", "country_name" : "New Zealand", "country_code":"+64" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a56" }, "iso_code" : "NI", "country_name" : "Nicaragua", "country_code":"+505" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a57" }, "iso_code" : "NE", "country_name" : "Niger", "country_code":"+227" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a58" }, "iso_code" : "NG", "country_name" : "Nigeria", "country_code":"+234" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a59" }, "iso_code" : "NU", "country_name" : "Niue", "country_code":"+683" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a5a" }, "iso_code" : "NF", "country_name" : "Norfolk Island", "country_code":"+672" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a5b" }, "iso_code" : "KP", "country_name" : "North Korea", "country_code":"+850" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a5c" }, "iso_code" : "VD", "country_name" : "North Vietnam", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a5d" }, "iso_code" : "MP", "country_name" : "Northern Mariana Islands", "country_code":"+1 670" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a5e" }, "iso_code" : "NO", "country_name" : "Norway", "country_code":"+47" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a5f" }, "iso_code" : "OM", "country_name" : "Oman", "country_code":"+968" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a60" }, "iso_code" : "PC", "country_name" : "Pacific Islands Trust Territory", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a61" }, "iso_code" : "PK", "country_name" : "Pakistan", "country_code":"+92" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a62" }, "iso_code" : "PW", "country_name" : "Palau", "country_code":"+680" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a63" }, "iso_code" : "PS", "country_name" : "Palestinian Territories", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a64" }, "iso_code" : "PA", "country_name" : "Panama", "country_code":"+507" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a65" }, "iso_code" : "PZ", "country_name" : "Panama Canal Zone", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a66" }, "iso_code" : "PG", "country_name" : "Papua New Guinea", "country_code":"+675" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a67" }, "iso_code" : "PY", "country_name" : "Paraguay", "country_code":"+595" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a68" }, "iso_code" : "YD", "country_name" : "People's Democratic Republic of Yemen", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a69" }, "iso_code" : "PE", "country_name" : "Peru", "country_code":"+51" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a6a" }, "iso_code" : "PH", "country_name" : "Philippines", "country_code":"+63" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a6b" }, "iso_code" : "PN", "country_name" : "Pitcairn Islands", "country_code":"+870" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a6c" }, "iso_code" : "PL", "country_name" : "Poland", "country_code":"+48" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a6d" }, "iso_code" : "PT", "country_name" : "Portugal", "country_code":"+351" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a6e" }, "iso_code" : "PR", "country_name" : "Puerto Rico", "country_code":"+630" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a6f" }, "iso_code" : "QA", "country_name" : "Qatar", "country_code":"+974" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a70" }, "iso_code" : "RO", "country_name" : "Romania", "country_code":"+40" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a71" }, "iso_code" : "RU", "country_name" : "Russia", "country_code":"+7" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a72" }, "iso_code" : "RW", "country_name" : "Rwanda", "country_code":"+250" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a73" }, "iso_code" : "RE", "country_name" : "Réunion", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a74" }, "iso_code" : "BL", "country_name" : "Saint Barthélemy", "country_code":"+590" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a75" }, "iso_code" : "SH", "country_name" : "Saint Helena", "country_code":"+290" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a76" }, "iso_code" : "KN", "country_name" : "Saint Kitts and Nevis", "country_code":"+1 869" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a77" }, "iso_code" : "LC", "country_name" : "Saint Lucia", "country_code":"+1 758" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a78" }, "iso_code" : "MF", "country_name" : "Saint Martin", "country_code":"+1 599" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a79" }, "iso_code" : "PM", "country_name" : "Saint Pierre and Miquelon", "country_code":"+508" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a7a" }, "iso_code" : "VC", "country_name" : "Saint Vincent and the Grenadines", "country_code":"+1 784" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a7b" }, "iso_code" : "WS", "country_name" : "Samoa", "country_code":"+685" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a7c" }, "iso_code" : "SM", "country_name" : "San Marino", "country_code":"+378" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a7d" }, "iso_code" : "SA", "country_name" : "Saudi Arabia", "country_code":"+966" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a7e" }, "iso_code" : "SN", "country_name" : "Senegal", "country_code":"+221" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a7f" }, "iso_code" : "RS", "country_name" : "Serbia", "country_code":"+381" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a80" }, "iso_code" : "CS", "country_name" : "Serbia and Montenegro", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a81" }, "iso_code" : "SC", "country_name" : "Seychelles", "country_code":"+248" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a82" }, "iso_code" : "SL", "country_name" : "Sierra Leone", "country_code":"+232" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a83" }, "iso_code" : "SG", "country_name" : "Singapore", "country_code":"+65" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a84" }, "iso_code" : "SK", "country_name" : "Slovakia", "country_code":"+421" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a85" }, "iso_code" : "SI", "country_name" : "Slovenia", "country_code":"+386" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a86" }, "iso_code" : "SB", "country_name" : "Solomon Islands", "country_code":"+677" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a87" }, "iso_code" : "SO", "country_name" : "Somalia", "country_code":"+252" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a88" }, "iso_code" : "ZA", "country_name" : "South Africa", "country_code":"+27" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a89" }, "iso_code" : "GS", "country_name" : "South Georgia and the South Sandwich Islands", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a8a" }, "iso_code" : "KR", "country_name" : "South Korea", "country_code":"+82" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a8b" }, "iso_code" : "ES", "country_name" : "Spain", "country_code":"+34" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a8c" }, "iso_code" : "LK", "country_name" : "Sri Lanka", "country_code":"+94" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a8d" }, "iso_code" : "SD", "country_name" : "Sudan", "country_code":"+249" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a8e" }, "iso_code" : "SR", "country_name" : "Suricountry_name", "country_code":"+597" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a8f" }, "iso_code" : "SJ", "country_name" : "Svalbard and Jan Mayen", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a90" }, "iso_code" : "SZ", "country_name" : "Swaziland", "country_code":"+268" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a91" }, "iso_code" : "SE", "country_name" : "Sweden", "country_code":"+46" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a92" }, "iso_code" : "CH", "country_name" : "Switzerland", "country_code":"+41" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a93" }, "iso_code" : "SY", "country_name" : "Syria", "country_code":"+963" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a94" }, "iso_code" : "ST", "country_name" : "São Tomé and Príncipe", "country_code":"+239" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a95" }, "iso_code" : "TW", "country_name" : "Taiwan", "country_code":"+886" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a96" }, "iso_code" : "TJ", "country_name" : "Tajikistan", "country_code":"+992" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a97" }, "iso_code" : "TZ", "country_name" : "Tanzania", "country_code":"+255" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a98" }, "iso_code" : "TH", "country_name" : "Thailand", "country_code":"+66" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a99" }, "iso_code" : "TL", "country_name" : "Timor-Leste", "country_code":"+670" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a9a" }, "iso_code" : "TG", "country_name" : "Togo", "country_code":"+228" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a9b" }, "iso_code" : "TK", "country_name" : "Tokelau", "country_code":"+690" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a9c" }, "iso_code" : "TO", "country_name" : "Tonga", "country_code":"+676" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a9d" }, "iso_code" : "TT", "country_name" : "Trinidad and Tobago", "country_code":"+1 868" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a9e" }, "iso_code" : "TN", "country_name" : "Tunisia", "country_code":"+216" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85a9f" }, "iso_code" : "TR", "country_name" : "Turkey", "country_code":"+90" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aa0" }, "iso_code" : "TM", "country_name" : "Turkmenistan", "country_code":"+993" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aa1" }, "iso_code" : "TC", "country_name" : "Turks and Caicos Islands", "country_code":"+1 649" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aa2" }, "iso_code" : "TV", "country_name" : "Tuvalu", "country_code":"+688" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aa3" }, "iso_code" : "UM", "country_name" : "U.S. Minor Outlying Islands", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aa4" }, "iso_code" : "PU", "country_name" : "U.S. Miscellaneous Pacific Islands", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aa5" }, "iso_code" : "VI", "country_name" : "U.S. Virgin Islands", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aa6" }, "iso_code" : "UG", "country_name" : "Uganda", "country_code":"+256" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aa7" }, "iso_code" : "UA", "country_name" : "Ukraine", "country_code":"+380" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aa8" }, "iso_code" : "SU", "country_name" : "Union of Soviet Socialist Republics", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aa9" }, "iso_code" : "AE", "country_name" : "United Arab Emirates", "country_code":"+971" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aaa" }, "iso_code" : "GB", "country_name" : "United Kingdom", "country_code":"+44" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aab" }, "iso_code" : "US", "country_name" : "United States", "country_code":"+1" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aac" }, "iso_code" : "ZZ", "country_name" : "Unknown or Invalid Region", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aad" }, "iso_code" : "UY", "country_name" : "Uruguay", "country_code":"+598" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aae" }, "iso_code" : "UZ", "country_name" : "Uzbekistan", "country_code":"+998" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85aaf" }, "iso_code" : "VU", "country_name" : "Vanuatu", "country_code":"+678" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85ab0" }, "iso_code" : "VA", "country_name" : "Vatican City", "country_code":"+39" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85ab1" }, "iso_code" : "VE", "country_name" : "Venezuela", "country_code":"+58" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85ab2" }, "iso_code" : "VN", "country_name" : "Vietnam", "country_code":"+84" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85ab3" }, "iso_code" : "WK", "country_name" : "Wake Island", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85ab4" }, "iso_code" : "WF", "country_name" : "Wallis and Futuna", "country_code":"+681" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85ab5" }, "iso_code" : "EH", "country_name" : "Western Sahara", "country_code":"+" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85ab6" }, "iso_code" : "YE", "country_name" : "Yemen", "country_code":"+967" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85ab7" }, "iso_code" : "ZM", "country_name" : "Zambia", "country_code":"+260" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85ab8" }, "iso_code" : "ZW", "country_name" : "Zimbabwe", "country_code":"+260" }
+{ "_id" : { "$oid" : "54ec2a2a467e125d4db85ab9" }, "iso_code" : "AX", "country_name" : "Åland Islands", "country_code":"+" }

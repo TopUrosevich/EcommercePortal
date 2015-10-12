@@ -1,0 +1,2 @@
+{ "_id" : { "$oid" : "550eb08b8efc124012000029" }, "owner_id" : "54bfad2f75755b5d1c6a26d2", "recipe_id" : "54fc57628efc120c10000029", "score" : "5", "created_at" : 1427026817 }
+{ "_id" : { "$oid" : "550ec8c38efc12401200002a" }, "owner_id" : "54d0cc75c297710b048b456c", "recipe_id" : "54fc57628efc120c10000029", "score" : "4", "created_at" : 1427033476 }

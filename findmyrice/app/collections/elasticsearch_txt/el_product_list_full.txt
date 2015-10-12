@@ -1,0 +1,71 @@
+$ curl -X PUT "http://localhost:9200/el_product_list" -d '{
+    "settings": {
+       "analysis": {
+          "filter": {
+             "nGram_filter": {
+                "type": "nGram",
+                "min_gram": 2,
+                "max_gram": 20,
+                "token_chars": [
+                   "letter",
+                   "digit",
+                   "punctuation",
+                   "symbol"
+                ]
+             }
+          },
+          "analyzer": {
+             "nGram_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace",
+                "filter": [
+                   "lowercase",
+                   "asciifolding",
+                   "nGram_filter"
+                ]
+             },
+             "whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace",
+                "filter": [
+                   "lowercase",
+                   "asciifolding"
+                ]
+             }
+          }
+       }
+    },
+      "mappings" : {
+        "el_product_list_type" : {
+            "_all": {
+                   "index_analyzer": "nGram_analyzer",
+                   "search_analyzer": "whitespace_analyzer"
+            },
+          "properties" : {
+            "user_id" : {
+              "type" : "string",
+              "index": "not_analyzed"
+            },
+            "pl_name" : {
+              "type" : "string"
+            },
+            "pl_file_type" : {
+              "type" : "string"
+            },
+            "pl_size" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "pl_url" : {
+              "type" : "string",
+              "index": "no",
+              "include_in_all": false
+            },
+            "pl_uploaded" : {
+              "type" : "string"
+            }
+          }
+        }
+      }
+}'; echo

@@ -1,0 +1,3 @@
+{ "_id" : { "$oid" : "550c2ab08efc12e411000029" }, "name" : "Salt" }
+{ "_id" : { "$oid" : "550c2b128efc12e41100002b" }, "name" : "Butter" }
+{ "_id" : { "$oid" : "550c2b388efc12e41100002d" }, "name" : "Egg" }

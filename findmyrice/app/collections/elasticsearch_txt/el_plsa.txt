@@ -1,0 +1,67 @@
+$ curl -X PUT "http://localhost:9200/el_plsa" -d '{
+  "mappings" : {
+    "el_plsa_type" : {
+      "properties" : {
+        "pl_name" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"sa_area_name" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"sa_country" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"sa_state" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"sa_city" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"sa_postcode" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"sa_street_address" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        }
+      }
+    }
+  },
+
+  "settings" : {
+    "analysis" : {
+      "analyzer" : {
+        "str_search_analyzer" : {
+          "tokenizer" : "keyword",
+          "filter" : ["lowercase"]
+        },
+
+        "str_index_analyzer" : {
+          "tokenizer" : "keyword",
+          "filter" : ["lowercase", "substring"]
+        }
+      },
+
+      "filter" : {
+        "substring" : {
+          "type" : "nGram",
+          "min_gram" : 1,
+          "max_gram"  : 50
+        }
+      }
+    }
+  }
+}'; echo

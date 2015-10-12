@@ -1,0 +1,131 @@
+$ curl -X PUT "http://localhost:9200/el_company_profile" -d '{
+    "settings": {
+       "analysis": {
+          "filter": {
+             "nGram_filter": {
+                "type": "nGram",
+                "min_gram": 2,
+                "max_gram": 20,
+                "token_chars": [
+                   "letter",
+                   "digit",
+                   "punctuation",
+                   "symbol"
+                ]
+             }
+          },
+          "analyzer": {
+             "nGram_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace",
+                "filter": [
+                   "lowercase",
+                   "asciifolding",
+                   "nGram_filter"
+                ]
+             },
+             "whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace",
+                "filter": [
+                   "lowercase",
+                   "asciifolding"
+                ]
+             }
+          }
+       }
+    },
+      "mappings" : {
+        "el_company_profile_type" : {
+            "_all": {
+                   "index_analyzer": "nGram_analyzer",
+                   "search_analyzer": "whitespace_analyzer"
+            },
+          "properties" : {
+              "user_id" : {
+                "type" : "string",
+                "index": "not_analyzed"
+              },
+              "title" : {
+                "type" : "string"
+              },
+              "tagline" : {
+                "type" : "string"
+              },
+              "short_description" : {
+                "type" : "string"
+              },
+              "long_description" : {
+                "type" : "string"
+              },
+              "web_site" : {
+                "type" : "string",
+                "index": "no",
+                "include_in_all": false
+              },
+              "email" : {
+                "type" : "string",
+                "index": "no",
+                "include_in_all": false
+              },
+              "address" : {
+                "type" : "string"
+              },
+              "city" : {
+                "type" : "string"
+              },
+              "state" : {
+                "type" : "string"
+              },
+              "country" : {
+                "type" : "string"
+              },
+              "phone" : {
+                "type" : "string"
+              },
+              "logo" : {
+                "type" : "string",
+                "index": "no",
+                "include_in_all": false
+              },
+              "profile_image" : {
+                "type" : "string",
+                "index": "no",
+                "include_in_all": false
+              },
+              "keywords" : {
+                "type" : "string"
+              },
+              "created_at" : {
+                 "type" : "string",
+                 "index": "no",
+                 "include_in_all": false
+              },
+              "modified_at" : {
+                 "type" : "string"
+              },
+              "business_type" : {
+                "type" : "string"
+              },
+              "currently_export" : {
+                 "type" : "string"
+              },
+              "currently_import" : {
+                 "type" : "string"
+              },
+              "postcode" : {
+                  "type" : "string"
+              },
+            "primary_product_service" : {
+              "type" : "string"
+            },
+            "primary_supplier_category" : {
+              "type" : "string"
+            },
+            "active" : {
+              "type" : "string"
+            }
+          }
+        }
+      }
+}'; echo

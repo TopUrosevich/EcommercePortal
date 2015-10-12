@@ -1,0 +1,4 @@
+{ "_id" : { "$oid" : "54c0b1faa740f4fafe2ae26c" }, "name" : "Administrators", "active" : "Y" }
+{ "_id" : { "$oid" : "54c0b20ca740f4fafe2ae26d" }, "name" : "Users", "active" : "Y" }
+{ "_id" : { "$oid" : "54c0b22ba740f4fafe2ae26e" }, "name" : "Companies", "active" : "Y" }
+{ "_id" : { "$oid" : "54df72e2dd435c45e09d37fb" }, "name" : "News-Contributors", "active" : "Y" }

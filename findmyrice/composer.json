@@ -1,0 +1,31 @@
+{
+  "name" : "phalcon/findmyrice",
+  "description" : "This is a Findmyrice application",
+  "version" : "1.1.0",
+  "require" : {
+    "php" : ">=5.3.9",
+    "ext-phalcon" : ">=1.2.4",
+    "swiftmailer/swiftmailer" : "5.0.*",
+    "amazonwebservices/aws-sdk-for-php" : "~1.0",
+    "egeloen/google-map": "dev-master",
+    "willdurand/geocoder": "*",
+    "elasticsearch/elasticsearch": "~1.0",
+    "symfony/process": "dev-master",
+    "phpoffice/phpexcel": "dev-master"
+  },
+  "config" : {
+    "vendor-dir" : "app/vendor"
+  },
+  "authors" : [ {
+    "name" : "Hovhannes Markosyan",
+    "email" : "markosyanhov@gmail.com"
+  },
+  {
+    "name" : "Anton Pelyh",
+    "email" : "pelyh11@gmail.com"
+  } ],
+  "keywords" : ["phalcon", "framework", "Findmyrice app" ],
+  "type" : "library",
+  "license" : "BSD-3",
+  "homepage" : "http://www.findmyrice.com"
+}

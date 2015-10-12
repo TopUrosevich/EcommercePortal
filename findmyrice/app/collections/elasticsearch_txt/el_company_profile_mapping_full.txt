@@ -1,0 +1,231 @@
+curl -X PUT "http://localhost:9200/findmyrice/_mapping/el_company_profile" -d '{
+       "el_company_profile" : {
+            "_all": {
+                   "index_analyzer": "nGram_analyzer",
+                   "search_analyzer": "whitespace_analyzer"
+            },
+          "properties" : {
+              "user_id" : {
+                "type" : "string",
+                "index": "not_analyzed"
+              },
+              "title" : {
+                  "type": "multi_field",
+                  "fields": {
+                      "title": {
+                              "type": "string",
+                              "index_analyzer": "nGram_analyzer",
+                              "search_analyzer": "whitespace_analyzer"
+                              },
+                      "title_exact": {
+                              "type": "string",
+                              "index": "not_analyzed"
+                              }
+                  }
+              },
+              "tagline" : {
+                  "type": "multi_field",
+                  "fields": {
+                      "tagline": {
+                              "type": "string",
+                              "index_analyzer": "nGram_analyzer",
+                              "search_analyzer": "whitespace_analyzer"
+                              },
+                      "tagline_exact": {
+                              "type": "string",
+                              "index": "not_analyzed"
+                              }
+                  }
+              },
+              "short_description" : {
+                "type" : "string",
+               "index_analyzer": "nGram_analyzer",
+               "search_analyzer": "whitespace_analyzer"
+              },
+              "long_description" : {
+                "type" : "string",
+               "index_analyzer": "nGram_analyzer",
+               "search_analyzer": "whitespace_analyzer"
+              },
+              "web_site" : {
+                "type" : "string",
+                "index": "no",
+                "include_in_all": false
+              },
+              "email" : {
+                "type" : "string",
+                "index": "no",
+                "include_in_all": false
+              },
+              "address" : {
+                "type" : "string",
+               "index_analyzer": "nGram_analyzer",
+               "search_analyzer": "whitespace_analyzer"
+              },
+              "city" : {
+                  "type": "multi_field",
+                  "fields": {
+                      "city": {
+                              "type": "string",
+                              "index_analyzer": "nGram_analyzer",
+                              "search_analyzer": "whitespace_analyzer"
+                              },
+                      "city_exact": {
+                              "type": "string",
+                              "index": "not_analyzed"
+                              }
+                  }
+              },
+              "state" : {
+                  "type": "multi_field",
+                  "fields": {
+                      "state": {
+                              "type": "string",
+                              "index_analyzer": "nGram_analyzer",
+                              "search_analyzer": "whitespace_analyzer"
+                              },
+                      "state_exact": {
+                              "type": "string",
+                              "index": "not_analyzed"
+                              }
+                  }
+              },
+              "country" : {
+                  "type": "multi_field",
+                  "fields": {
+                      "country": {
+                              "type": "string",
+                              "index_analyzer": "nGram_analyzer",
+                              "search_analyzer": "whitespace_analyzer"
+                              },
+                      "country_exact": {
+                              "type": "string",
+                              "index": "not_analyzed"
+                              }
+                  }
+              },
+              "phone" : {
+                   "type" : "long",
+                   "index": "not_analyzed"
+              },
+              "logo" : {
+                "type" : "string",
+                "index": "no",
+                "include_in_all": false
+              },
+              "profile_image" : {
+                "type" : "string",
+                "index": "no",
+                "include_in_all": false
+              },
+              "keywords" : {
+                  "type": "multi_field",
+                  "fields": {
+                      "keywords": {
+                              "type": "string",
+                              "index_analyzer": "nGram_analyzer",
+                              "search_analyzer": "whitespace_analyzer"
+                              },
+                      "keywords_exact": {
+                              "type": "string",
+                              "index": "not_analyzed"
+                              }
+                  }
+              },
+              "created_at" : {
+                 "type" : "string",
+                 "index": "no",
+                 "include_in_all": false
+              },
+              "modified_at" : {
+                        "type": "multi_field",
+                        "fields": {
+                            "modified_at": {
+                                    "type" : "date",
+                                    "format" : "YYYY-MM-dd",
+                                    "index_analyzer": "nGram_analyzer",
+                                    "search_analyzer": "whitespace_analyzer"
+                                    },
+                            "modified_at_exact": {
+                                    "type" : "date",
+                                    "format" : "YYYY-MM-dd",
+                                    "index": "not_analyzed"
+                                    }
+                        }
+              },
+              "business_type" : {
+                  "type": "multi_field",
+                  "fields": {
+                      "business_type": {
+                              "type": "string",
+                              "index_analyzer": "nGram_analyzer",
+                              "search_analyzer": "whitespace_analyzer"
+                              },
+                      "business_type_exact": {
+                              "type": "string",
+                              "index": "not_analyzed"
+                              }
+                  }
+              },
+              "premium" : {
+                  "type" : "string",
+                  "index": "not_analyzed"
+              },
+              "currently_export" : {
+                "type" : "string",
+                "index": "not_analyzed"
+              },
+              "currently_import" : {
+                "type" : "string",
+                "index": "not_analyzed"
+              },
+
+              "postcode" : {
+                  "type": "multi_field",
+                  "fields": {
+                      "postcode": {
+                              "type": "string",
+                              "index_analyzer": "nGram_analyzer",
+                              "search_analyzer": "whitespace_analyzer"
+                              },
+                      "postcode_exact": {
+                              "type": "string",
+                              "index": "not_analyzed"
+                              }
+                  }
+              },
+            "primary_product_service" : {
+                    "type": "multi_field",
+                    "fields": {
+                        "primary_product_service": {
+                                "type": "string",
+                                "index_analyzer": "nGram_analyzer",
+                                "search_analyzer": "whitespace_analyzer"
+                                },
+                        "primary_product_service_exact": {
+                                "type": "string",
+                                "index": "not_analyzed"
+                                }
+                    }
+            },
+            "primary_supplier_category" : {
+                    "type": "multi_field",
+                    "fields": {
+                        "primary_supplier_category": {
+                                "type": "string",
+                                "index_analyzer": "nGram_analyzer",
+                                "search_analyzer": "whitespace_analyzer"
+                                },
+                        "primary_supplier_category_exact": {
+                                "type": "string",
+                                "index": "not_analyzed"
+                                }
+                    }
+            },
+            "active" : {
+              "type" : "string",
+              "index": "not_analyzed"
+            }
+          }
+        }
+}'; echo

@@ -1,0 +1,2 @@
+{ "_id" : { "$oid" : "5514146e8efc12a810000029" }, "cookbook_id" : "551408208efc12000a000029", "owner_id" : "54bfad2f75755b5d1c6a26d2", "email" : "user3@aaa.com", "shown" : false, "created_at" : 1427379310 }
+{ "_id" : { "$oid" : "551415c98efc12000a00002a" }, "cookbook_id" : "5500c3d98efc12f01300002a", "owner_id" : "54bfad2f75755b5d1c6a26d2", "email" : "user3@aaa.com", "shown" : true, "created_at" : 1427379657 }

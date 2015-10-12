@@ -1,0 +1,42 @@
+$ curl -X PUT "http://localhost:9200/el_product_list" -d '{
+  "mappings" : {
+    "el_product_list_type" : {
+      "properties" : {
+        "pl_name" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"pl_file_type" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        }		
+      }
+    }
+  },
+
+  "settings" : {
+    "analysis" : {
+      "analyzer" : {
+        "str_search_analyzer" : {
+          "tokenizer" : "keyword",
+          "filter" : ["lowercase"]
+        },
+
+        "str_index_analyzer" : {
+          "tokenizer" : "keyword",
+          "filter" : ["lowercase", "substring"]
+        }
+      },
+
+      "filter" : {
+        "substring" : {
+          "type" : "nGram",
+          "min_gram" : 1,
+          "max_gram"  : 50
+        }
+      }
+    }
+  }
+}'; echo

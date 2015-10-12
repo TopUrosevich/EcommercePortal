@@ -1,0 +1,82 @@
+$ curl -X PUT "http://localhost:9200/el_company" -d '{
+  "mappings" : {
+    "el_company_type" : {
+      "properties" : {
+        "business_name" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"street_address" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"suburb_town_city" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"state" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"country" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"business_type" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"membership_type" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"postcode" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"primary_product_service" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        },
+		"primary_supplier_category" : {
+          "type" : "string",
+          "search_analyzer" : "str_search_analyzer",
+          "index_analyzer" : "str_index_analyzer"
+        }
+      }
+    }
+  },
+
+  "settings" : {
+    "analysis" : {
+      "analyzer" : {
+        "str_search_analyzer" : {
+          "tokenizer" : "keyword",
+          "filter" : ["lowercase"]
+        },
+
+        "str_index_analyzer" : {
+          "tokenizer" : "keyword",
+          "filter" : ["lowercase", "substring"]
+        }
+      },
+
+      "filter" : {
+        "substring" : {
+          "type" : "nGram",
+          "min_gram" : 1,
+          "max_gram"  : 50
+        }
+      }
+    }
+  }
+}'; echo

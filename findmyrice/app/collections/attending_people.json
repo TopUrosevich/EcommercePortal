@@ -1,0 +1,4 @@
+{ "_id" : { "$oid" : "54f08a628efc12c810000029" }, "city" : "Kherson, Kherson, Ukraine", "company" : "Company 1", "email" : "name1@mail.loc", "event_id" : "54eb33628efc12d80f00002a", "name" : "Name 1" }
+{ "_id" : { "$oid" : "54f08b968efc12b80700002a" }, "event_id" : "54eb33628efc12d80f00002a", "name" : "Name 2", "email" : "name2@mail.loc", "city" : "Kyiv, Kyiv City, Ukraine", "company" : "Company 2" }
+{ "_id" : { "$oid" : "54f08f0d8efc12400a000029" }, "event_id" : "54eb33628efc12d80f00002a", "name" : "Name 3", "email" : "name3@mail.loc", "city" : "Kyiv, Kyiv City, Ukraine", "company" : "Company 3" }
+{ "_id" : { "$oid" : "54f09c4f8efc12b80700002b" }, "event_id" : "54eb2c6d8efc12d80f000029", "name" : "Name 1", "email" : "email1@mail.loc", "city" : "Kyiv, Kyiv City, Ukraine", "company" : "Company 1" }

@@ -1,0 +1,3 @@
+(function($) {
+    $.noConflict();
+})(jQuery);

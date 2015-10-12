@@ -1,0 +1,1143 @@
+@media (min-width:1601px){
+    .error_box{
+        padding-top: 320px;
+    }
+}
+@media (max-width:1400px){
+    .error_box{
+        background-position: center center;
+        padding-top: 255px;
+    }
+}
+@media (max-width:1220px){
+    .most_popular_box, .news_container .news_banner_left{
+        width: auto;
+    }
+}
+@media (max-width:1200px){
+    .connect_with_us_cont{
+        margin-top:30px;
+    }
+    .search_box .btn-group .select_btn{
+        width: 87%;
+    }
+    .product_box{
+        width: 290px;
+        height: 290px;
+        line-height: 290px;
+    }
+    .fresh_produce_product, .seafood_product{
+        width: 612px;
+    }
+    .preview_ad_box_outer{
+        padding: 20px 0;
+    }
+    .preview_ad_container{
+        padding: 5px 30px;
+        margin-bottom: 5px;
+    }
+    .events_preview_bootom{
+        padding: 10px 40px;
+    }
+    .events_preview .description{
+        padding-top: 10px;
+    }
+    .events_preview_top{
+        padding: 10px;
+    }
+    .company_preview h3, .company_preview a{
+        font-size: 22px;
+    }
+    .company_searchBox_widgets, .ads_user_box{
+        padding-left: 0;
+    }
+    .company_preview_ads{
+        margin-bottom: 20px;
+    }
+    .company_preview{
+        margin-bottom: 15px;
+    }
+    .company_preview a{
+        margin: 10px auto;
+    }
+    .reasons_txt h4{
+        font-size: 38px;
+    }
+    .recomended_txt {
+        top: -45px;
+        max-width: 150px;
+    }
+    .date_col{
+        width: 20%;
+    }
+    .name_col{
+        width: 35%;
+    }
+    .news_box .news_preview{
+        min-height: 250px;
+    }
+    .alert.alert-error{
+        padding-left: 15px;
+    }
+    .area_code_field{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .error_main_info p{
+        line-height: 25px;
+        text-align: center;
+    }
+    .error_main_info h1, .error_second_info p{
+        width: 315px;
+        text-align: center;
+        line-height: 25px;
+    }
+    .error_main_info{
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 1150px){
+    .error_box{
+        padding-top: 225px;
+    }
+}
+@media(min-width: 992px) and (max-width:1002px){
+    .slider_box .wallaper{
+        max-width: 960px;
+    }
+}
+@media (max-width: 992px){
+    .search_box input, .search_box .btn-group{
+        width: 40%;
+    }
+    .slider_box_basic.search_box input[type=text]{
+        width: 100%;
+    }
+    .search_box .btn-group .select_btn{
+        width: 91%;
+    }
+    .main_menu .menu_separate{
+        display:none;
+    }
+    .sign_up_cont{
+        margin-top:30px;
+    }
+    .info_video{
+        padding-top: 0;
+    }
+    .video_box, .supplier_setup_box{
+        height: auto;
+        padding: 100px 0;
+    }
+    .secondary_title{
+        font-size: 24px;
+    }
+    .secondary_txt, .supplier_setup_box p{
+        font-size: 16px;
+    }
+    .brands_box p{
+        line-height: 20px;
+    }
+    .form_elements{
+        margin-bottom: 15px;
+    }
+    .slider_box_main p{
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .brands_box{
+        padding-top: 35px;
+    }
+    .product_box {
+        width: 220px;
+        height: 220px;
+        background-size: 100% 100%;
+        line-height: 220px;
+    }
+    .fresh_produce_product, .seafood_product{
+        width: 470px;
+    }
+    .info_box p{
+        font-size: 45px;
+    }
+    .info_box h2{
+        font-size: 24px;
+    }
+    .middle_section, .about_us_profile, .contactus_slider,
+    .press_box .policy_box_slider, .terms_conditions_box .policy_box_slider,
+    .refund_box .policy_box_slider, .privacy_box .policy_box_slider, .suggestion_form_box .policy_box_slider{
+        height: auto;
+    }
+    .contactus_slider{
+        padding: 70px 0;
+    }
+    .input_name{
+        margin-bottom: 15px;
+    }
+    .suggestion_form_box .input_name{
+        margin-bottom: 0;
+    }
+    .contact_us_info{
+        padding-bottom: 320px;
+    }
+    .basic_membership h3, .premium_membership h3{
+        margin: 10px 0 20px 0;
+
+    }
+    .profile_form{
+        margin-bottom: 50px;
+    }
+    .profile_box label{
+        line-height: normal;
+    }
+    .profile_form_cont{
+        margin-left: auto;
+        margin-right: -15px;
+    }
+    .profile_box .area_details  label{
+        line-height: 30px;
+    }
+    .supplier_btn{
+        margin-left:10px;
+    }
+    .similarCompanies_line{
+        margin-bottom: 10px;
+    }
+    .opening_hours_widgets span{
+        margin-right: 0;
+    }
+    .left_events_preview{
+        text-align: center;
+    }
+    .events_preview img {
+        margin-top: 10px;
+        width: auto;
+        border-radius: 0;
+    }
+    .events_preview_bootom {
+        padding: 10px 70px;
+    }
+    .events_preview_top{
+        padding: 20px 20px 0;
+    }
+    .container_heading.feature_events{
+        margin-top: 20px;
+    }
+    .events_add_to_calendar{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .events_related .date, .events_more .date{
+        padding-left: 0;
+    }
+    .press_box .policy_box_slider, .terms_conditions_box .policy_box_slider,
+    .refund_box .policy_box_slider, .privacy_box .policy_box_slider, .suggestion_form_box .policy_box_slider{
+        padding: 80px 0;
+    }
+    .search_ads_middle h2{
+        margin-top: 0;
+    }
+    .search_ads_right img{
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    .news_banner_left{
+        text-align: center;
+    }
+    .prices_table_top h2{
+        font-size: 20px;
+    }
+    .arrow_orange{
+        left: 0;
+    }
+    .reasons_txt h4{
+        top: 5px;
+        font-size:34px;
+    }
+    .prices_table_cotainer {
+        margin-top: -45px;
+    }
+    .prices_table.prices_table_main{
+        margin-top: 20px;
+    }
+    .prices_table table.table.info_table tr td{
+        padding: 0 0 0 2px!important;
+        font-size: 10px;
+    }
+    .prices_table table.table.info_table tr th{
+        padding: 25px 0 8px 2px!important;
+    }
+    .prices_table table.table.info_table tr td.last_line {
+        padding-bottom: 22px !important;
+    }
+    .prices_table table i{
+        margin-left: 3px;
+        font-size: 14px;
+    }
+    .recomended_txt{
+        max-width: 125px;
+    }
+    .name_col{
+        width: 35%;
+    }
+    .date_col{
+        width: 30%;
+    }
+    .approval_col{
+        width: 10%;
+    }
+    .category_col{
+        width: 10%;
+    }
+    .changes_col{
+        width: 15%;
+    }
+    .reasons_txt img, .reasons_txt .img_seal{
+        width: auto;
+    }
+    .reasons_txt_inner{
+        margin-bottom: 60px;
+    }
+    .most_popular_box{
+        width: 300px;
+    }
+    .news_container .news_banner_left{
+        width: auto;
+    }
+    .events_preview.left_events_preview{
+        min-height: 310px;
+    }
+    .left_events_box{
+        margin-top: 25px;
+    }
+    .contributor_page_box .info_leads{
+        padding: 0;
+    }
+    .events_inner{
+        min-height: 345px;
+    }
+    .admin_search_box .rwd_table {
+        overflow-x: auto;
+        margin-bottom: 50px;
+    }
+    .search_box_pagination{
+        text-align: left;
+    }
+    .messages_menu{
+        padding: 20px 0;
+    }
+    .inbox_box a{
+        font-size: 14px;
+    }
+    .inbox_box{
+        padding: 0 15px;
+    }
+    .message_check{
+        text-align: right;
+        margin-top: 10px;
+    }
+    .inbox_box .edit_link{
+        line-height: 32px;
+    }
+}
+@media (max-width:850px){
+.prices_table.prices_table_hover:hover{
+    width: 170px;
+}
+    .error_main_info p, .error_second_info p, .error_main_info h2{
+        font-size:20px;
+    }
+    .error_box {
+        padding-top: 275px;
+    }
+    .backHome_btn{
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+}
+@media(min-width: 768px){
+    .right_widgets_box {
+        padding-left: 2px;
+    }
+    .center_widgets_box{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .left_widgets_box {
+        padding-right: 2px;
+    }
+    ul.menu_responsive {
+        display: none !important;
+    }
+}
+@media (max-width:767px){
+    .service_ad_box{
+        padding: 20px 0;
+    }
+    .product_box_container{
+        padding: 50px 0;
+    }
+    .logo_box, .social_box, .img_supplier_setup, .info_video, .info_supplier_setup, .footer_top{
+        text-align:center;
+    }
+    .logo{
+        margin:5px;
+    }
+    .video_box, .supplier_setup_box{
+        padding: 50px 0;
+    }
+    .img_video {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .clear{
+        clear: both;
+    }
+    body footer{
+        padding: 25px 0;
+    }
+    footer .footer_widget ul li a{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    footer .footer_widget .title{
+        font-size: 16px;
+    }
+    footer .footer_widget p{
+        font-size: 12px;
+    }
+    .product_box_container a{
+        display: inline-block;
+    }
+    .product_box{
+        width:330px;
+        height:330px;
+        line-height: 330px;
+    }
+    .fresh_produce_product, .seafood_product {
+        width: 565px;
+    }
+    .middle_section{
+        padding-top: 50px;
+    }
+    .middle_section_txt{
+        margin-top: 0;
+    }
+    .info_box{
+        padding-bottom: 45px;
+    }
+    .about_us_profile{
+        padding: 50px 0;
+    }
+    .info_contactus_slider{
+        font-size: 30px;
+    }
+    .aboutus_slider, .contributor_slider{
+        height: auto;
+        line-height: 250px;
+    }
+    .contributor_slider{
+        padding-bottom: 0;
+        line-height: 240px;
+    }
+    .contributor_slider p{
+        font-size: 20px;
+    }
+    .contributor_page_box h2{
+        font-size: 26px;
+    }
+    .contact_us_info{
+        text-align: center;
+        padding: 40px 0;
+    }
+    .send_btn{
+        margin-bottom: 25px;
+    }
+    .register_form{
+        margin: auto;
+    }
+    .company_txt{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .next_btn, .register_btn{
+        padding: 10px 75px;
+    }
+    .next_btn_box, .register_btn_box, .add_single_box{
+        text-align: center;
+    }
+    ul.basic_membership_info{
+        margin-top: auto;
+    }
+    .membership_box_content{
+        margin-top: 20px;
+    }
+    .membership_box{
+        padding-top: 20px;
+        min-height: 100%;
+    }
+    .buy_now_btn, .register_now_btn{
+        margin-bottom: 30px;
+    }
+    .main_menu .menu_txt, .my_account_box .menu_txt, .profile_box .menu_txt{
+        display: inline-block;
+    }
+    .left_menu_box .left_menu li{
+        height: auto;
+    }
+    .left_menu_box .left_menu li a{
+        padding: 10px 0;
+    }
+    .membership_form{
+        margin-bottom: 30px;
+    }
+    .membership_type_box{
+        padding: 0 10px 30px;
+    }
+    .secondary_menu{
+        text-align: center;
+    }
+    .title_my_account h2{
+        display: none;
+    }
+    .title_my_account .back_my_account a{
+        display: block;
+    }
+    .advertising_box_btn{
+        margin-bottom: 20px;
+    }
+    .advertising_box button.place_order{
+        margin-left: auto;
+    }
+    .campaign_reporting_container .graphic_report{
+        min-height: 150px;
+        margin-bottom: 25px;
+    }
+    .campaign_reporting_container button{
+        width: 100% !important;
+        margin: 5px 0;
+    }
+    .graphic_report_title{
+        height: auto;
+        overflow: hidden;
+    }
+    .about_us_profile_txt{
+        margin-top: auto;
+    }
+    .about_us_profile_txt p{
+        font-size: 16px;
+    }
+    .top_social_box{
+        display: none;
+    }
+    .header_social_icons{
+        display: none;
+    }
+    .graphic_report_title{
+        background: #f3f3f3;
+        color: #595858;
+    }
+    .back_my_account{
+        width: 100%;
+    }
+    .copy_box{
+        text-align: center;
+    }
+    .supplier_profile_box .main_menu li{
+        margin-left: 35px;
+    }
+    .widgets_social{
+        text-align: left;
+    }
+    .left_widgets_box .widgets h2 {
+        padding: 15px 0;
+    }
+    .photos_widgets{
+        text-align: center;
+    }
+    .photos_widgets img{
+        margin-bottom: 10px;
+    }
+    .supplier_btn{
+        margin-left: 0;
+    }
+    .similarCompanies_line{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .top_widgets_box p{
+        padding: 15px 0 10px;
+    }
+    .certificates_widgets_txt, .opening_hours_widgets p, .awards_widgets p{
+        line-height: 25px;
+    }
+    .policy_box_txt {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .all_events{
+        margin-bottom: 20px;
+    }
+    .events_preview .venue, .events_preview .date, .events_preview .location, .events_preview .category{
+        font-size: 16px;
+    }
+    .events_share .social_box{
+        text-align: left;
+    }
+    .events_header .info .name{
+        font-size: 28px;
+    }
+    .events_header .info .details{
+        font-size: 20px;
+    }
+    .events_header .info .separate {
+        margin: 0 5px;
+    }
+    .events_header .info .name, .events_header .info .category, .events_header .info .details{
+        line-height: 36px;
+    }
+    .user_profile_box .main_menu{
+        border: none;
+    }
+    .user_widgets_box{
+        margin-top: 40px;
+    }
+    .user_search_btn{
+        text-align: left;
+        margin-top: 20px;
+    }
+    .row.advanced_search_box{
+        margin-top: 20px;
+    }
+    #header_nav_menu {
+        display: block;
+        height: 36px;
+    }
+    #header_nav_menu.aaa{
+        height:auto;
+    }
+    #header_nav_menu_2 {
+        display: none;
+    }
+    .company_searchBox_widgets, .ads_user_box {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .news_top_small_item img, .news_preview a img{
+        width: auto;
+    }
+    .news_box .news_preview, .news_preview .content, .news_container .news_banner_left{
+        text-align: center;
+    }
+    .news_box .news_preview{
+        min-height: 200px;
+    }
+    .container_heading{
+        margin-top: 20px;
+    }
+    .nav_top .menu_separate{
+        display: none;
+    }
+    .most_popular_box{
+        margin-top: 30px;
+    }
+    .most_popular_box .container_heading h3{
+        margin-bottom: 30px;
+    }
+    .leads_logo_box p{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .leads_logo_box{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .leads_page_box h2{
+        margin-bottom: 30px;
+    }
+    .leads_page_box .img_container{
+        height: 180px;
+        line-height: 180px;
+    }
+    .newsletter_box{
+        padding: 15px 20px;
+    }
+    .newsletter_box h1{
+        font-size: 36px;
+    }
+    /*** Menu   ***/
+    a#mobile_navigation_button {
+        display: block;
+    }
+    .menu_responsive{
+        display: block;
+    }
+    #menu_click{
+        display: block;
+    }
+    .prices_table_top button{
+        margin: 0 auto;
+        display: block;
+    }
+    .prices_table{
+        margin-bottom: 35px;
+    }
+    .prices_table_mobile{
+        display: block;
+    }
+    .prices_table_main{
+        display: none;
+    }
+    .prices_table_cotainer .prices_table_out_l{
+        padding: 0;
+        padding-left: 15px;
+    }
+
+    .prices_table_cotainer .prices_table_out_r{
+        padding: 0;
+        padding-right: 15px;
+    }
+    .reasons_txt{
+        text-align: center;
+    }
+    .reasons_txt .reasons_txt_inner{
+        text-align: left;
+    }
+    .prices_table_section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .prices_table_choose_cont{
+        margin-top: 60px;
+    }
+    .prices_table_cotainer{
+        margin-top: auto;
+    }
+    .reasons_txt h4 {
+        top: -10px;
+        font-size: 34px;
+        text-align: right;
+        left: -120px;
+    }
+    .arrow_orange {
+        left: -25px;
+        top: 30px;
+    }
+    .prices_table_top h3{
+        padding: 15px 0 !important;
+    }
+    .recomended_txt{
+        right: 35px;
+    }
+    .prices_table_cont{
+        margin-right: -15px;
+    }
+    .help_container .top_faq{
+        margin-bottom: 30px;
+    }
+    .news_blog_box input[type="date"]{
+        margin-top: 15px;
+    }
+    .recipes_preview .separate{
+        display: none;
+    }
+    .recipes, .recipes_nav_images{
+        margin-top: 0;
+    }
+    .recipes_sort_by{
+        margin-bottom: 15px;
+    }
+    .name_col{
+        width: 20%;
+    }
+    .approval_col{
+        width: 5%;
+    }
+    .category_col{
+        width: 7%;
+    }
+    #manage-events .glyphicon{
+        margin-right: 1px;
+    }
+    #manage-events, #manage-events-organiser {
+        margin-top: 20px;
+    }
+    .slider_box .slider_box_main{
+        height: auto;
+        padding: 20px 0 0;
+    }
+    .slider_box .slider_box_main{
+        text-align: left;
+    }
+    .forgot_pass_txt{
+        padding-left: 15px;
+    }
+    .email_box{
+        margin: 25px auto 0;
+    }
+    p.pricing_txt{
+        text-align: center;
+    }
+    .reasons_txt img{
+        margin-bottom: 15px;
+    }
+    .prices_table.prices_table_hover:hover {
+        width: auto;
+        left: 0;
+        top: 0;
+    }
+    .prices_table.prices_table_hover:hover h3{
+        padding: 15px 0 !important;
+    }
+    .reasons_txt_inner{
+        margin-bottom: 0;
+    }
+    .price_box{
+        margin-top: 20px;
+    }
+    .feature_events_box, .events_preview .description{
+        display: none;
+    }
+    .events_preview_top {
+        height: auto;
+        padding: 20px;
+    }
+    .events_header{
+        height: auto;
+    }
+    .events_header .info{
+        margin-top: 0;
+    }
+    .events_header .main_image{
+        display: none;
+    }
+    .events_inner{
+        min-height: inherit;
+    }
+    .left_menu_box .left_menu{
+        text-align: center;
+    }
+    .items_page{
+         text-align: left;
+         margin-top: 10px;
+     }
+    .pagination_events{
+        text-align: left;
+        margin-top: 10px;
+    }
+    .pagination_events ul li:first-child {
+        margin-left: 0;
+    }
+    .certificate_tab .certificate_inp{
+        padding-right: 15px;
+    }
+    .certificate_tab .fileUpload{
+        padding: 14px 12px;
+    }
+    .certificate_tab .fileUpload .file_upload_btn {
+        width: 100%;
+        text-indent: -125px;
+    }
+    .error_box{
+        padding-top: 175px;
+        padding-bottom: 100px;
+    }
+    .error_main_info h1{
+        width: auto;
+    }
+    .inbox_left_top a {
+        line-height: 25px;
+    }
+    .message_month{
+        text-align: right;
+    }
+}
+@media (max-width:767px) and (orientation: landscape){
+    .error_box{
+        padding-top: 20px;
+    }
+    .error_main_info{
+        margin-bottom: 5px;
+    }
+    .error_box .backHome_btn{
+        margin-top: 5px;
+    }
+
+}
+@media (max-width:612px) and (min-width: 415px){
+    .add_single_box .add_single_btn{
+        padding: 19px;
+    }
+}
+@media (max-width:600px){
+    .main_menu li, .main_menu a, .supplier_profile_box .main_menu li{
+        width:100%;
+        margin-left:0;
+    }
+    .footer_widget{
+        width:100%;
+        text-align:center;
+        margin-bottom:25px;
+    }
+    footer .footer_widget .title{
+        margin-bottom:10px;
+    }
+    .sign_up_cont{
+        margin-top:10px;
+    }
+    .footer_bottom div{
+        width:100%;
+        text-align:center;
+        margin: 0;
+    }
+    .footer_menu{
+        margin-top:10px;
+    }
+    footer .footer_bottom{
+        padding-top:0;
+    }
+    .connect_with_us_cont{
+        margin-top: auto;
+    }
+    .secondary_title{
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .search_box .btn-group{
+        width: 100%;
+        position: relative;
+    }
+    .search_box .btn-group .btn-danger{
+        position: absolute;
+        right: 1px;
+    }
+    .search_box .btn-group .dropdown-menu, .search_box input{
+        width: 100%;
+    }
+    .search_box .btn-group .select_btn{
+        width: 92%;
+        text-align: left;
+    }
+    .product_box {
+        width: 310px;
+        height: 310px;
+        line-height: 310px;
+    }
+    .middle_section_txt p{
+        margin-bottom: 35px;
+        text-align: justify;
+    }
+    .aboutus_slider_txt, .info_contactus_slider{
+        font-size: 26px;
+    }
+    .contactus_slider .info_contactus_slider{
+        width: 100%;
+    }
+    .contactus_slider{
+        text-align: center;
+        width: 100%;
+    }
+    .send_btn_box{
+        text-align: center;
+    }
+    .suggestion_form_box .send_btn_box{
+        text-align: right;
+    }
+    .or_txt{
+        width: 100%;
+    }
+    .look_up_btn_box, .add_btn_box{
+        width: 100%;
+    }
+    .add_btn_box{
+        margin-top: 20px;
+    }
+    .product_list_box .file_upload_btn {
+        padding-bottom: 23px;
+    }
+    .policy_box_txt {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .press_box .policy_box_slider, .terms_conditions_box .policy_box_slider,
+    .refund_box .policy_box_slider, .privacy_box .policy_box_slider, .suggestion_form_box .policy_box_slider{
+        padding: 50px 0;
+    }
+    #header_nav_menu .main_menu ul.nav{
+        width: 100%;
+        background: #252525;
+    }
+    #header_nav_menu .main_menu ul.nav li a:hover {
+        background: #e00909;
+        color: #e6e4e4;
+    }
+    #header_nav_menu .main_menu ul.nav li a{
+        color: #fefefe;
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    #header_nav_menu .main_menu ul.nav li{
+        margin-left: 0;
+        border-bottom: 1px solid #303030;
+    }
+    .news_container .nav_top li {
+        margin-left: 0;
+        width: 100%;
+    }
+    .nav_top li a{
+        padding: 10px 0;
+        width: 100%;
+    }
+    .reasons_txt h4{
+        left: -50px;
+    }
+    .nav.nav-tabs>li{
+        width: 100%;
+    }
+    .login_popup_box{
+        width: auto;
+    }
+    .contributor_slider {
+        line-height: 190px;
+    }
+}
+@media (max-width: 578px){
+    ul.login_menu li.sep_menu{
+        display: none;
+    }
+    .rwd_table{
+        overflow-x: auto;
+    }
+    .nav_manage li.sep_menu{
+        display: none;
+    }
+}
+@media (max-width: 480px){
+    ul.login_menu li.welcome_user{
+        display: block;
+        text-align: center;
+    }
+    .arrow_orange {
+        left: -45px;
+        top: 30px;
+    }
+    .dataTables_wrapper .dataTables_paginate .paginate_button{
+        padding: 0.25em 0.5em;
+        font-size: 14px;
+    }
+    .news_blog_list li{
+        display: block;
+    }
+    .news_blog_list li a{
+        padding: 10px 0;
+        display: inline-block;
+    }
+    .news_blog_list{
+        margin-bottom: 10px;
+    }
+    .contributor_slider p {
+        font-size: 18px;
+    }
+    .contributor_slider {
+        line-height: 150px;
+    }
+    .brands_box p{
+        width: auto;
+    }
+}
+@media (max-width: 400px){
+    #images_profileImage{
+        min-width: 200px;
+    }
+    .infobox_line{
+        width: 100%;
+    }
+    .info_box p{
+        margin-top: 30px;
+    }
+    ul.login_menu li{
+        margin-left: 5px;
+    }
+    .service_area_box .file_upload_btn {
+        padding-bottom: 55px;
+    }
+    .gallery_photo_container{
+        width:100%;
+    }
+    .press_box .policy_box_slider, .terms_conditions_box .policy_box_slider,
+    .refund_box .policy_box_slider, .privacy_box .policy_box_slider, .suggestion_form_box .policy_box_slider{
+        padding: 20px 0;
+    }
+    .new_company_box h2{
+        font-size: 24px;
+    }
+    .slider_box{
+        background-image: url(../images/home_mobile_bg.png) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .recomended_txt{
+        right: 25px;
+    }
+    .reasons_txt h4{
+        left: -15px;
+    }
+    .slider_box_main p{
+        color: #f3f4f8;
+        font-size: 30px;
+        font-family: 'ebrima';
+        line-height: 30px;
+        margin: 35px 0 55px;
+    }
+    .slider_box .slider_box_main{
+        background: transparent;
+        top: auto;
+        padding-top: 0;
+        text-align: center;
+    }
+}
+@media(max-width: 370px) {
+    .prices_table_top h3 {
+        padding: 7px 0 !important;
+    }
+    .prices_table_mobile{
+        margin-top: 116px;
+    }
+    .prices_table_top h3{
+        font-size: 15px;
+    }
+    .prices_table.prices_table_hover:hover h3{
+        padding: 7px 0 !important;
+    }
+}
+@media (max-width: 350px){
+    .brands_box p{
+        width: auto;
+    }
+    footer .footer_menu li{
+        display: block;
+        margin-bottom: 10px;
+    }
+    footer .footer_menu li.footer_menu_separate{
+        display: none;
+    }
+    .product_box {
+        width: 270px;
+        height: 270px;
+        line-height: 270px;
+    }
+    .preview_ad_box .blue_txt {
+        float: left;
+        margin: 10px 0;
+    }
+    .social_box li.share_txt{
+        margin-right: 0 ;
+        font-size: 14px;
+    }
+    .prices_table table.table.info_table tr td{
+        font-size: 9px;
+    }
+    .secondary_menu li a{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,5 @@
+{ "_id" : { "$oid" : "54db96938efc123810000029" }, "title" : "Foodservice", "alias" : "foodservice" }
+{ "_id" : { "$oid" : "54db96d58efc12381000002a" }, "title" : "Fast-Food / QSR", "alias" : "fast-food-or-qsr" }
+{ "_id" : { "$oid" : "54db96e28efc12381000002b" }, "title" : "Baverage", "alias" : "baverage" }
+{ "_id" : { "$oid" : "54dbac258efc12600400002a" }, "title" : "Coffee", "alias" : "coffee" }
+{ "_id" : { "$oid" : "54dbac2b8efc12600400002b" }, "title" : "Design", "alias" : "design" }

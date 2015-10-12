@@ -1,0 +1,5 @@
+{ "_id" : { "$oid" : "5502c8d78efc123010000029" }, "recipe_id" : "54fc57628efc120c10000029", "owner_id" : "54bfad2f75755b5d1c6a26d2", "email" : "email@mail.loc", "shown" : true, "created_at" : 1426245847 }
+{ "_id" : { "$oid" : "5502c9868efc122812000029" }, "recipe_id" : "54fc57628efc120c10000029", "owner_id" : "54bfad2f75755b5d1c6a26d2", "email" : "email2@mail.loc", "shown" : false, "created_at" : 1426246022 }
+{ "_id" : { "$oid" : "5502ec278efc12701200002b" }, "recipe_id" : "550269cf8efc12701300002a", "owner_id" : "54bfad2f75755b5d1c6a26d2", "email" : "markosyanhov@gmail.com", "shown" : true, "created_at" : 1426254887 }
+{ "_id" : { "$oid" : "5502f8318efc12281200002a" }, "recipe_id" : "54fc57628efc120c10000029", "owner_id" : "54bfad2f75755b5d1c6a26d2", "email" : "markosyanhov@gmail.com", "shown" : false, "created_at" : 1426257969 }
+{ "_id" : { "$oid" : "5503137d8efc12701200002c" }, "recipe_id" : "550269cf8efc12701300002a", "owner_id" : "54bfad2f75755b5d1c6a26d2", "email" : "pelyh11@gmail.com", "shown" : false, "created_at" : 1426264957 }
